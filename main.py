@@ -207,7 +207,7 @@ class SearchDialog:
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Proactive + eSIM APDU Viewer")
+        self.title("SIM APDU Viewer V1.0")
         self.geometry("1200x760")
 
         self._session: GuiSession | None = None
